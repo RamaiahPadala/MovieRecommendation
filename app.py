@@ -6,7 +6,7 @@ from sklearn.metrics import mean_squared_error
 from scipy.sparse.linalg import svds
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key'  # Change this to a random string for security
+app.secret_key = 'Test12'
 
 # Load dataset
 movies = pd.read_csv('movies.csv')
